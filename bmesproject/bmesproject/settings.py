@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'app',#addig app to settings
+    'catalogueapp',#adding catalogue app
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
