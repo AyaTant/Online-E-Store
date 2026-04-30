@@ -38,7 +38,7 @@ class Brand(Base):
     name = models.CharField(max_length=50)
     slug = models.SlugField(max_length=500, unique=True,help_text='Unique value for product page URL, created from name')
     description = models.TextField()
-    meta_description = models.CharField("Meta description",max_lentgh=500,help_text='content for description of meta tag')
+    meta_description = models.CharField("Meta description",max_length=500,help_text='content for description of meta tag')
     meta_keywords = models.CharField("Meta Keywords",max_length=500,help_text='Comma separated set of SEO keywords for meta tag')
     brand_status = models.IntegerField(choices=Brand_Status,default=0)
 
@@ -59,7 +59,7 @@ class Product(Base):
     name = models.CharField(max_length=50)
     slug = models.SlugField(max_length=500, unique=True,help_text='Unique value for product page URL, created from name')
     description = models.TextField()
-    meta_description = models.CharField("Meta description",max_lentgh=500,help_text='content for description of meta tag')
+    meta_description = models.CharField("Meta description",max_length=500,help_text='content for description of meta tag')
     meta_keywords = models.CharField("Meta Keywords",max_length=500,help_text='Comma separated set of SEO keywords for meta tag')
     sku = models.CharField(max_length=100)
     model = models.CharField(max_length=200)
