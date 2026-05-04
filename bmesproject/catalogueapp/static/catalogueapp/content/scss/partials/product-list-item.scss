@@ -1,0 +1,32 @@
+.product-list-item {
+    height:370px;
+    text-align: center;
+    padding: 10px 5px 10px 5px;
+    border: 1px solid pink;
+
+    &__image-wrapper{
+        margin-bottom:10px;
+    }
+
+    &__image{
+        height: 220px;
+        width:220px;
+    }
+    &__product-name {
+        font-size: 14px;
+        font-weight: 500;
+        color:pink;
+    }
+    &__product-price{
+        font-size: 18px;
+        font-weight: 500;
+        color:pink;
+    }
+
+    &__button {
+        background-color: pink;
+        color:white;
+        padding: 8px 10px;
+        border:none;
+    }
+}
