@@ -33,6 +33,11 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'app',#addig app to settings
     'catalogueapp',#adding catalogue app
+    'cartapp',#adding cart app
+    'locationapp',#adding location app
+    'userapp',#adding user app
+    'orderapp',#adding order app
+    'checkoutapp',#adding checkout app
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
