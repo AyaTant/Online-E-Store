@@ -14,24 +14,24 @@ The system follows a **modular Django architecture**, making it scalable, mainta
 
 BMESPROJECT/
 │
-├── bmestproject/ # Django project configuration (settings, urls, wsgi)
-├── app/ # Core shared app (base utilities / shared logic)
+├── bmestproject/        # Django project configuration (settings, urls, wsgi)
 │
-├── cartapp/ # Shopping cart functionality
-├── catalogueapp/ # Product catalog and product management
-├── checkoutapp/ # Checkout and payment workflow
-├── locationapp/ # Location / address handling
-├── orderapp/ # Order processing and management
-├── userapp/ # User authentication and profile management
+├── app/                 # Core shared app (base utilities / shared logic)
+├── cartapp/            # Shopping cart functionality
+├── catalogueapp/       # Product catalog and product management
+├── checkoutapp/        # Checkout and payment workflow
+├── locationapp/        # Location / address handling
+├── orderapp/           # Order processing and management
+├── userapp/            # User authentication and profile management
 │
-├── static/ # Static files (CSS, JS, images)
-├── db.sqlite3 # SQLite database (development)
-├── manage.py # Django project manager
+├── static/             # Static files (CSS, JS, images)
 │
-├── requirements.txt # Project dependencies
-├── .gitignore # Ignored files for version control
-├── README.md # Project documentation
-
+├── db.sqlite3          # SQLite database (development)
+├── manage.py           # Django project manager
+│
+├── requirements.txt    # Project dependencies
+├── .gitignore          # Ignored files for version control
+├── README.md           # Project documentation
 
 ---
 
