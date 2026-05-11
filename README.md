@@ -11,7 +11,6 @@ The system follows a **modular Django architecture**, making it scalable, mainta
 
 ## 🏗️ Project Structure
 
-
 BMESPROJECT/
 
 ├── bmestproject/        # Django project configuration (settings, urls, wsgi)
@@ -29,6 +28,8 @@ BMESPROJECT/
 ├── requirements.txt    # Project dependencies
 ├── .gitignore          # Ignored files for version control
 ├── README.md           # Project documentation
+
+
 ---
 
 ## 🎯 Project Goals
