@@ -17,23 +17,46 @@ BMESPROJECT/
 ├── bmestproject/        # Django project configuration 
 (settings, urls, wsgi)
 &nbsp;
+&nbsp;
 ├── app/                 # Core shared app (base utilities / shared logic)
+&nbsp;
+&nbsp;
 ├── cartapp/            # Shopping cart functionality
+&nbsp;
+&nbsp;
 ├── catalogueapp/       # Product catalog and product management
+&nbsp;
+&nbsp;
 ├── checkoutapp/        # Checkout and payment workflow
+&nbsp;
+&nbsp;
 ├── locationapp/        # Location / address handling
-├── orderapp/           # Order processing and management
+&nbsp;
+&nbsp;
+├── orderapp/           # Order processing and 
+management
+&nbsp;
+&nbsp;
 ├── userapp/            # User authentication and profile management
-│
+&nbsp;
+&nbsp;
 ├── static/             # Static files (CSS, JS, images)
-│
+&nbsp;
+&nbsp;
 ├── db.sqlite3          # SQLite database (development)
+&nbsp;
+&nbsp;
 ├── manage.py           # Django project manager
-│
+&nbsp;
+&nbsp;
 ├── requirements.txt    # Project dependencies
+&nbsp;
+&nbsp;
 ├── .gitignore          # Ignored files for version control
+&nbsp;
+&nbsp;
 ├── README.md           # Project documentation
-
+&nbsp;
 ---
 
 ## 🎯 Project Goals
