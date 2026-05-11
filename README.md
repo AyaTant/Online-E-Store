@@ -13,9 +13,10 @@ The system follows a **modular Django architecture**, making it scalable, mainta
 
 
 BMESPROJECT/
-│
-├── bmestproject/        # Django project configuration (settings, urls, wsgi)
-│
+
+├── bmestproject/        # Django project configuration 
+(settings, urls, wsgi)
+&nbsp;
 ├── app/                 # Core shared app (base utilities / shared logic)
 ├── cartapp/            # Shopping cart functionality
 ├── catalogueapp/       # Product catalog and product management
