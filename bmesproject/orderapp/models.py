@@ -15,9 +15,9 @@ class Base(models.Model):
 # Order Model
 class Order(Base):
     Order_Status = [(0,"Canceled"),(1,"Submitted"),(2,"Completed"),(3,"Processing")]
-    order_total = models.DecimalField(max_length=9,decimal_places=2)
+    order_total = models.DecimalField(max_digits=9,decimal_places=2)
     order_item_total = models.DecimalField(max_digits=9,decimal_places=2)
-    shipping_charges = models.DecimalField(max_digits=9,decimal_palces=2,defualt=0.00)
+    shipping_charges = models.DecimalField(max_digits=9, decimal_places=2, default=0.00)
     delivery_address = models.OneToOneField(Address,on_delete=models.CASCADE)
     order_status = models.IntegerField(choices =Order_Status,default=1)
     customer = models.ForeignKey(Customer,on_delete=models.CASCADE)
