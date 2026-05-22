@@ -6,12 +6,16 @@ from catalogueapp import catalogue_service
 def catalogue(request, category_slug='all-categories',brand_slug='all-brands'):
     assert isinstance(request,HttpRequest)
     if request.method == "POST":
+        page_object = catalogue_service.fetch_products(request,category_slug,brand_slug)
         return render (
             request,
             'catalogueapp/index.html',
             {
                 'title':'Product Page',
                 'year':datetime.now().year,
+                'page_object':page_object,
+                'selected_category':category_slug,
+                'selected_brand':brand_slug,
             }
         )
     else:
@@ -23,6 +27,8 @@ def catalogue(request, category_slug='all-categories',brand_slug='all-brands'):
                 'title':'Product Page',
                 'year':datetime.now().year,
                 'page_object':page_object,
+                'selected_category':category_slug,
+                'selected_brand':brand_slug,
             }
         )
 

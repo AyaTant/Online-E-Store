@@ -1,4 +1,4 @@
-from bmesproject.bmesproject import settings
+from bmesproject import settings
 from catalogueapp.models import Brand, Category
 def bmes_context(request):
     return {
