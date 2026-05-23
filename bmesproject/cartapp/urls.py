@@ -1,5 +1,5 @@
 from django.urls import path
-from . import views
+from cartapp import views
 
 app_name = 'cartapp'
 
