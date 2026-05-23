@@ -1,0 +1,6 @@
+# ignore admin images if needed
+bmesproject\static\app\images
+
+
+
+
