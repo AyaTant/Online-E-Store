@@ -10,7 +10,7 @@ class Base(models.Model):
 
 #Person Model
 class Person(Base):
-    Gender_Types = [('M','Male',('F','Femal'),('U','Unknown'))]
+    Gender_Types = [('M','Male'),('F','Femal'),('U','Unknown')]
     first_name = models.CharField(max_length=50,unique=False)
     middle_name = models.CharField(max_length=50,blank=True)
     last_name = models.CharField(max_length=50,unique=False)
@@ -21,7 +21,7 @@ class Person(Base):
 
     class Meta:
         db_table = 'people'
-        ordering = ['created_note']
+        ordering = ['created_date']
 
 # Customer Model
 class Customer(Base):
