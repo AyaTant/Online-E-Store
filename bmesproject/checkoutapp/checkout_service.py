@@ -40,11 +40,11 @@ def process_checkout(request):
         last_name = form.cleaned_data['last_name']
         email = form.cleaned_data['email']
         address_line_1 = form.cleaned_data['address_line_1']
-        address_line_2 = form.changed_data['address_line_2']
+        address_line_2 = form.cleaned_data['address_line_2']
         city = form.cleaned_data['city']
         state = form.cleaned_data['state']
         country = form.cleaned_data['country']
-        zip_code = form.changed_data['zip_code']
+        zip_code = form.cleaned_data['zip_code']
 
         person = Person()
         person.first_name = first_name
